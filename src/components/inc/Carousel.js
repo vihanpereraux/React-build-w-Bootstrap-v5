@@ -21,14 +21,14 @@ function Carousel() {
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="https://i.ibb.co/6yjhhPz/Slider1.jpg" class="d-block w-100" alt="Slider1" border="0"/>
+                <img src="https://i.ibb.co/HCtVnqj/Slider2.jpg" class="d-block w-100" alt="Slider2" border="0"/>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="https://i.ibb.co/6yjhhPz/Slider1.jpg" class="d-block w-100" alt="Slider1" border="0"/>
+                <img src="https://i.ibb.co/HzHRX1L/Slider3.jpg" class="d-block w-100" alt="Slider3" border="0"/>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Third slide label</h5>
                     <p>Some representative placeholder content for the third slide.</p>
