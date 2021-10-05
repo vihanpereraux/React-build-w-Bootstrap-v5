@@ -1,7 +1,7 @@
 import React from "react";
-import Slider1 from '../images/Slider1.jpg';
-import Slider2 from '../images/Slider2.jpg';
-import Slider3 from '../images/Slider3.jpg';
+//import Slider1 from '../images/Slider1.jpg';
+//import Slider2 from '../images/Slider2.jpg';
+//import Slider3 from '../images/Slider3.jpg';
 
 
 function Carousel() {
@@ -14,21 +14,21 @@ function Carousel() {
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src={Slider1} class="d-block w-100" alt="..."/>
+                <img src="https://i.ibb.co/6yjhhPz/Slider1.jpg" class="d-block w-100" alt="Slider1" border="0"/>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src={Slider2} class="d-block w-100" alt="..."/>
+                <img src="https://i.ibb.co/6yjhhPz/Slider1.jpg" class="d-block w-100" alt="Slider1" border="0"/>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src={Slider3} class="d-block w-100" alt="..."/>
+                <img src="https://i.ibb.co/6yjhhPz/Slider1.jpg" class="d-block w-100" alt="Slider1" border="0"/>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Third slide label</h5>
                     <p>Some representative placeholder content for the third slide.</p>
