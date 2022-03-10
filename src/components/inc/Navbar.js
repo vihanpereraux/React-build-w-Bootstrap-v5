@@ -6,6 +6,7 @@ function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
+
         <Link to="" class="navbar-brand" href="#">Logo</Link>
         <button
           class="navbar-toggler"
@@ -16,8 +17,9 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -31,6 +33,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
+        
       </div>
     </nav>
   );
