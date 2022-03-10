@@ -1,29 +1,44 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import "./App.css";
+
+// Not in-use because of the new design integration
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
+
 import Navbar from "./components/inc/Navbar";
+import Landing from "./components/partials/Landing";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <div>
+    // Commented for new design integration
+    // <Router>
+    //   <div>
+    //     <Navbar />
+    //     <Switch>
+    //       <Route exact path="/">
+    //         <Home />
+    //       </Route>
+    //       <Route path="/about">
+    //         <About />
+    //       </Route>
+    //       <Route path="/contact">
+    //         <Contact />
+    //       </Route>
+    //     </Switch>  
+    //   </div>
+    // </Router>
+
+
+    // New design integration
+    <div>
+      <Router>
         <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-        </Switch>  
-      </div>
-    </Router>
+      </Router>
+      <Landing />
+    </div>
   );
 }
 

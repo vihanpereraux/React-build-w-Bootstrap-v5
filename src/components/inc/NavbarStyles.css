@@ -1,0 +1,32 @@
+/* Font weight - 500 - Medium */
+/* Font weight - 600 - SemiBold */
+/* Font weight - 700 - Bold */
+/* Font face - NeutralFace */
+
+.navbar
+{
+    background-color: #161616;
+    /* use variables */
+}
+
+.logo
+{
+    font-family: NeutralFace;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #D6FF00;
+}
+
+.nav-items
+{
+    font-family: NeutralFace;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.current-one
+{
+    color: #D6FF00;
+}

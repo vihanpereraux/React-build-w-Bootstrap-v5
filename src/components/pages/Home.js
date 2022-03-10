@@ -7,12 +7,13 @@ function Home()
   return (
     // wrapping div
     <div>
-      <div className="container mt-5">
+      {/* <div className="container mt-5">
         <Carousel />
-      </div>
+      </div> */}
 
       <div className="container">
         <div className="card shadow mt-5">
+
           <div className="card-body">
             <h2 id="home-title">Home Page</h2>
             <p id="test-paragaraph">
@@ -23,8 +24,10 @@ function Home()
               typesetting, remaining essentially unchanged
             </p>
           </div>
+
         </div>
       </div>
+      
     </div>
   );
 }
