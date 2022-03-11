@@ -1,0 +1,54 @@
+/* Font weight - 500 - Raleway - Medium */
+/* Font weight - 600 - Raleway - SemiBold */
+/* Font weight - 700 - Raleway - Bold */
+/* Font face - NeutralFace */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+#landing-section
+{
+    background-color: #161616;
+    padding-top: 7%;
+    padding-bottom: 8%;
+}
+
+.landing-img
+{
+    width: 75%;
+}
+
+#landing-title
+{
+    color: white;
+    font-family: NeutralFace;
+    letter-spacing: 1.2px;
+    font-size: 42px;
+    line-height: 1.4;
+}
+.highlight-area
+{
+    color: #D6FF00;
+}
+
+.model-name
+{
+    font-family: NeutralFace;
+    margin-top: 10%;
+}
+
+.landing-row-2
+{
+    position: relative;
+}
+#landing-paragraph
+{
+    color: white;
+    width: 80%;
+    font-family: 'Exo 2', sans-serif;
+    /* font-weight: 400; */
+    font-size: 17px;
+    margin-top: 5%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
