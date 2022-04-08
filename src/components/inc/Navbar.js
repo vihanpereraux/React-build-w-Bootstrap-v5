@@ -29,28 +29,28 @@ function Navbar() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
 
-            <li class="nav-item">
+            {/* <li class="nav-item">
                 <Link to="/" class="nav-link" href="#">
                   <span class="nav-items current-one">Home ↗</span>
                 </Link>
-            </li>
+            </li> */}
+            {/* <li class="nav-item">
+                <Link to="/login" class="nav-link" href="#">
+                  <span class="nav-items">Login ↗ </span>
+                </Link>
+            </li> */}
+            {/* <li class="nav-item">
+                <Link to="/about" class="nav-link" href="#">
+                  <span class="nav-items">Life ↗ </span>
+                </Link>
+            </li> */}
             <li class="nav-item">
                 <Link to="/contact" class="nav-link" href="#">
-                  <span class="nav-items">About ↗ </span>
+                  <span class="nav-items">Contact ↗ </span>
                 </Link>
             </li>
             <li class="nav-item">
                 <Link to="/about" class="nav-link" href="#">
-                  <span class="nav-items">Life ↗ </span>
-                </Link>
-            </li>
-            <li class="nav-item">
-                <Link to="" class="nav-link" href="#">
-                  <span class="nav-items">Work ↗ </span>
-                </Link>
-            </li>
-            <li class="nav-item">
-                <Link to="" class="nav-link" href="#">
                   <span class="nav-items">About ↗ </span>
                 </Link>
             </li>

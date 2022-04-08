@@ -5,6 +5,8 @@ import "./App.css";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
+import Login from "./components/pages/Login"
+import Register from "./components/pages/Register"
 
 import Navbar from "./components/inc/Navbar";
 import Landing from "./components/partials/Landing";
@@ -19,26 +21,44 @@ function App() {
     //     <Navbar />
     //     <Switch>
     //       <Route exact path="/">
-    //         <Home />
+    //         <Landing />
     //       </Route>
     //       <Route path="/about">
     //         <About />
     //       </Route>
-    //       <Route path="/contact">
-    //         <Contact />
+    //       <Route path="/login">
+    //         <Login />
     //       </Route>
     //     </Switch>  
     //   </div>
     // </Router>
 
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/">
+            <Login />
+          </Route>
+          <Route path="/register">
+            <Register />
+          </Route>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
+        </Switch>  
+      </div>
+    </Router>
 
     // New design integration
-    <div>
-      <Router>
-        <Navbar />
-      </Router>
-      <Landing />
-    </div>
+    // <div>
+    //   <Router>
+    //     <Navbar />
+    //   </Router>
+    //   <Landing />
+    // </div>
   );
 }
 
